@@ -1,8 +1,8 @@
 - type: entity
-  name: РПГ-HJRA-12
+  name: РПГ-ХЖРА-12
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherHJRA12
-  description: "Ручний протитанковий гранатомет HJRA-12 - це стандартна зброя СПН. Гранатомет спроєктований для простоти у виробництві, використанні та ефективного виведення з ладу броньованих цілей."
+  description: "Ручний протитанковий гранатомет 'Хунцзянь Жуймао'-12 (кит. Червона стріла - гострий спис) - це стандартна зброя СПН. Гранатомет спроєктований для простоти у виробництві, використанні та ефективного виведення з ладу броньованих цілей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/hjra12/hjra12_inhands.rsi

@@ -7,8 +7,8 @@
   abstract: true
   parent: BaseItem
   id: RMCBoxMagazineBase
-  name: generic magazine box (? x ?)
-  description: A box of magazines.
+  name: коробка магазинів (? х ?)
+  description: Коробка з магазинами.
   components:
   - type: Item
     size: Huge
@@ -32,8 +32,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleBase
-  name: generic rifle magazine box (? x ?)
-  description: Коробка з магазинами для гвинтівки.
+  name: коробка магазинів для гвинтівок (? х ?)
+  description: Коробка з магазинами для гвинтівок.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -83,7 +83,7 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSMGBase
-  name: generic smg magazine box (? x ?)
+  name: коробка магазинів для ПК (? х ?)
   description: Коробка з магазинами для пістолетів-кулеметів.
   components:
   - type: Sprite
@@ -134,7 +134,7 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazinePistolBase
-  name: generic pistol magazine box (? x ?)
+  name: коробка магазинів для пістолетів (? х ?)
   description: Коробка з магазинами для пістолетів.
   components:
   - type: Sprite
@@ -178,8 +178,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxFlamerTankBase
-  name: generic flamer tank box (? x ?)
-  description: A box of incinerator tanks.
+  name: коробка паливних баків для вогнеметів (? х ?)
+  description: Коробка з паливними баками.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -219,7 +219,7 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineShellBase
-  name: generic shell bundle box (? x ?)
+  name: коробка з набоями для рушниць (? х ?)
   description: Коробка з набоями для дробовиків та рушниць.
   components:
   - type: Sprite
@@ -269,8 +269,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSupplyBase
-  name: generic supply box (? x ?)
-  description: A box of supplies.
+  name: коробка припасів (? х ?)
+  description: Коробка з припасами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -305,8 +305,8 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineSupplySmallBase
-  name: generic small supply box (? x ?)
-  description: A box of supplies.
+  name: мала коробка припасів (? х ?)
+  description: Коробка з припасами.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -1296,7 +1296,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType77APEmpty
-  name: magazine box (AP Type 77 x 10)
+  name: коробка з магазинами (ББ Тип 77 х 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1340,7 +1340,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType77RubberEmpty
-  name: magazine box (rubber Type 77 x 10)
+  name: коробка з магазинами (гумові Тип 77 х 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1385,7 +1385,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleSSG45Empty
-  name: magazine box (SSG45 x 10)
+  name: коробка з магазинами (ССГ45 х 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1432,7 +1432,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleSSG45APEmpty
-  name: magazine box (AP SSG45 x 10)
+  name: коробка з магазинами (ББ ССГ45 х 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -1480,7 +1480,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType71Empty
-  name: magazine box (Type 71 x 10)
+  name: коробка з магазинами (Тип 71 х 10)
   components:
   - type: Sprite
     layers:
@@ -1525,7 +1525,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType71APEmpty
-  name: magazine box (AP Type 71 x 10)
+  name: коробка з магазинами (ББ Тип 71 х 10)
   components:
   - type: Sprite
     layers:
@@ -1570,7 +1570,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType71HEAPEmpty
-  name: magazine box (HEAP Type 71 x 10)
+  name: коробка з магазинами (ВБ Тип 71 х 10)
   components:
   - type: Sprite
     layers:
@@ -1615,7 +1615,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType71RubberEmpty
-  name: magazine box (rubber Type 71 x 10)
+  name: коробка з магазинами (гумові Тип 71 х 10)
   components:
   - type: Sprite
     layers:
@@ -1660,7 +1660,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleType88Empty
-  name: magazine box (Type 88 x 16)
+  name: коробка з магазинами (Тип 88 х 16)
   components:
   - type: Sprite
     layers:
@@ -1705,7 +1705,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90Empty
-  name: magazine box (L90/91 x 12)
+  name: коробка з магазинами (Л90/91 х 12)
   components:
   - type: Sprite
     layers:
@@ -1750,7 +1750,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90DrumEmpty
-  name: magazine box (Drum L90/91 x 8)
+  name: коробка з магазинами (барабанні Л90/91 х 8)
   components:
   - type: Sprite
     layers:
@@ -1795,7 +1795,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90APEmpty
-  name: magazine box (AP L90/91 x 12)
+  name: коробка з магазинами (ББ Л90/91 х 12)
   components:
   - type: Sprite
     layers:
@@ -1840,7 +1840,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90DrumAPEmpty
-  name: magazine box (AP Drum L90/91 x 8)
+  name: коробка з магазинами (ББ барабанні L90/91 х 8)
   components:
   - type: Sprite
     layers:
@@ -1885,7 +1885,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90HEAPEmpty
-  name: magazine box (HEAP L90/91 x 12)
+  name: коробка з магазинами (ВБ L90/91 х 12)
   components:
   - type: Sprite
     layers:
@@ -1930,7 +1930,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL90DrumHEAPEmpty
-  name: magazine box (HEAP Drum L90/91 x 8)
+  name: коробка з магазинами (ВБ барабанні Л90/91 х 8)
   components:
   - type: Sprite
     layers:
@@ -1975,7 +1975,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL112Empty
-  name: magazine box (L112 x 12)
+  name: коробка з магазинами (Л112 х 12)
   suffix: Royal, PVE
   components:
   - type: Sprite
@@ -2021,7 +2021,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: RMCBoxMagazineRifleL112SHEmpty
-  name: magazine box (HESH L112 x 12)
+  name: коробка з магазинами (БФ Л112 х 12)
   suffix: Royal, PVE
   components:
   - type: Sprite
@@ -2214,7 +2214,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGM63HEAPEmpty
-  name: magazine box (HEAP M63 x 12)
+  name: коробка з магазинами (ВБ М63 х 12)
   components:
   - type: Sprite
     layers:
@@ -2259,7 +2259,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGType64Empty
-  name: magazine box (Type 64 x 12)
+  name: коробка з магазинами (Тип 64 х 12)
   components:
   - type: Sprite
     layers:
@@ -2304,7 +2304,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGType64RubberEmpty
-  name: magazine box (rubber Type 64 x 12)
+  name: коробка з магазинами (гумові Тип 64 х 12)
   components:
   - type: Sprite
     layers:
@@ -2350,7 +2350,7 @@
 - type: entity
   parent: RMCBoxMagazineSMGBase
   id: RMCBoxMagazineSMGL7A3SquashHeadEmpty
-  name: magazine box (HESH L7A3 x 12)
+  name: коробка з магазинами (БФ Л7А3 х 12)
   components:
   - type: Sprite
     layers:
@@ -2484,7 +2484,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM1984HPEmpty
-  name: magazine box (HP M1984 x 16)
+  name: коробка з магазинами (експансивні М1984 х 16)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -2757,7 +2757,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolType73Empty
-  name: magazine box (Type 73 x 16)
+  name: коробка з магазинами (Тип 73 х 16)
   components:
   - type: Sprite
     layers:
@@ -2800,7 +2800,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolTypeNP92Empty
-  name: magazine box (NP92 x 16)
+  name: коробка з магазинами (НП92 х 16)
   components:
   - type: Sprite
     layers:
@@ -2843,7 +2843,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolL14Empty
-  name: magazine box (L14 x 16)
+  name: коробка з магазинами (Л14 х 16)
   components:
   - type: Sprite
     layers:
@@ -2886,7 +2886,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolL14APEmpty
-  name: magazine box (AP L14 x 16)
+  name: коробка з магазинами (ББ Л14 х 16)
   components:
   - type: Sprite
     layers:
@@ -2929,7 +2929,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id: RMCBoxMagazinePistolM1911Empty
-  name: magazine box (M1911 x 16)
+  name: коробка з магазинами (М1911 х 16)
   components:
   - type: Sprite
     layers:
@@ -2971,9 +2971,9 @@
 # -- MISC AMMO BOXES --
 
 - type: entity
-  parent: RMCBoxFlamerTankBase
+  parent: 
   id: RMCBoxFlamerTankEmpty
-  name: flamer tank box (UT-Napthal Fuel x 8)
+  name: коробка з паливними баками (НВ-Нафталеве паливо х 8)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3191,7 +3191,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsBeanbagEmpty
-  name: shell box (Beanbag x 100)
+  name: коробка з набоями (нелетальні х 100)
   components:
   # - type: Construction
   # graph: RMCBoxMagazine
@@ -3237,7 +3237,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsIncendiaryEmpty
-  name: shell box (Incendiary Slug x 100)
+  name: коробка з набоями (запальні кулеві х 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3285,7 +3285,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsIncendiaryBuckshotEmpty
-  name: shell box (Incendiary Buckshot x 100)
+  name: коробка з набоями (запальні картечні х 100)
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -3333,7 +3333,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsHeavyBuckshotEmpty
-  name: shell box (Heavy Buckshot x 80)
+  name: коробка з набоями (важкі картечні х 80)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -3374,7 +3374,7 @@
 - type: entity
   parent: RMCBoxMagazineShellBase
   id: RMCBoxShellsHeavySlugsEmpty
-  name: shell box (Heavy Slugs x 80)
+  name: коробка з набоями (важкі кулеві х 80)
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -3417,7 +3417,7 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxMagazineSMGNailgunEmpty
-  name: magazine box (Nailgun x 10)
+  name: коробка з набоями (цвяхи х 10)
   components:
   - type: Construction
     graph: RMCBoxMagazine

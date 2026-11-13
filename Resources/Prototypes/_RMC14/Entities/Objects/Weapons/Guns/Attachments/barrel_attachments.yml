@@ -446,8 +446,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCAttachmentL49Barrel
-  name: L49 standoff device
-  description: How are you even seeing this?
+  name: ствол Л49
+  description: Соупе, нащо ти це зняв?
   components:
   - type: Sprite
     state: choke

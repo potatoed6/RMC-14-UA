@@ -3,9 +3,9 @@
   abstract: true
   parent: RMCBoxMagazineBase
   id: RMCBoxMagazineRifleLargeBase
-  name: generic rifle magazine box (? x ?)
+  name: коробка магазинів (? x ?)
   suffix: PVE
-  description: A box of rifle magazines.
+  description: Коробка магазинів.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Boxes/modular_boxes.rsi
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CEmpty
-  name: large magazine box (M54C x 32)
+  name: велика коробка магазинів (М54С х 32)
   components:
   - type: Sprite
     layers:
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CExtEmpty
-  name: large magazine box (Ext M54C x 32)
+  name: велика коробка магазинів (розширені М54С х 32)
   components:
   - type: Sprite
     layers:
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CAPEmpty
-  name: large magazine box (AP M54C x 32)
+  name: велика коробка магазинів (ББ М54С х 32)
   components:
   - type: Sprite
     layers:
@@ -189,7 +189,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CHEAPEmpty
-  name: large magazine box (HEAP M54C x 32)
+  name: велика коробка набоїв (ВБ М54С х 32)
   components:
   - type: Sprite
     layers:
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CMK1Empty
-  name: large magazine box (M54C MK1 x 32)
+  name: велика коробка набоїв (М54С МК1 х 32)
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CMK1APEmpty
-  name: large magazine box (AP M54C MK1 x 32)
+  name: велика коробка набоїв (ББ М54С МК1 х 32)
   components:
   - type: Sprite
     layers:
@@ -324,7 +324,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleM54CMK1HEAPEmpty
-  name: large magazine box (HEAP M54C MK1 x 32)
+  name: велика коробка набоїв (ВБ М54С МК1 х 32)
   components:
   - type: Sprite
     layers:
@@ -369,7 +369,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleType71Empty
-  name: large magazine box (Type 71 x 32)
+  name: велика коробка набоїв (Тип 71 х 32)
   components:
   - type: Sprite
     layers:
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleType71APEmpty
-  name: large magazine box (AP Type 71 x 32)
+  name: велика коробка набоїв (ББ Тип 71 х 32)
   components:
   - type: Sprite
     layers:
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleType71HEAPEmpty
-  name: large magazine box (HEAP Type 71 x 32)
+  name: велика коробка набоїв (ВБ Тип 71 х 32)
   components:
   - type: Sprite
     layers:
@@ -504,7 +504,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleType71RubberEmpty
-  name: large magazine box (rubber Type 71 x 32)
+  name: велика коробка набоїв (гумові Тип 71 х 32)
   components:
   - type: Sprite
     layers:
@@ -545,11 +545,11 @@
         tags:
         - RMCMagazineRifleType71Rubber
 
-# L90/91 Reg
+# Л90/91 Reg
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleL90Empty
-  name: large magazine box (L90/91 x 32)
+  name: велика коробка набоїв (Л90/91 х 32)
   components:
   - type: Sprite
     layers:
@@ -590,11 +590,11 @@
         tags:
         - RMCMagazineRifleL90
 
-# L90/91 AP
+# Л90/91 AP
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleL90APEmpty
-  name: large magazine box (AP L90/91 x 32)
+  name: велика коробка набоїв (ББ Л90/91 х 32)
   components:
   - type: Sprite
     layers:
@@ -635,11 +635,11 @@
         tags:
         - RMCMagazineRifleL90AP
 
-# L90/91 HEAP
+# Л90/91 HEAP
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleL90HEAPEmpty
-  name: large magazine box (HEAP L90/91 x 32)
+  name: велика коробка набоїв (ВБ Л90/91 х 32)
   components:
   - type: Sprite
     layers:
@@ -680,11 +680,11 @@
         tags:
         - RMCMagazineRifleL90HEAP
 
-# L90/91 Reg Drum
+# Л90/91 Reg Drum
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleL90DrumEmpty
-  name: large magazine box (Drum L90/91 x 32)
+  name: велика коробка набоїв (барабанні Л90/91 х 32)
   components:
   - type: Sprite
     layers:
@@ -725,11 +725,11 @@
         tags:
         - RMCMagazineRifleL90Drum
 
-# L90/91 AP Drum
+# Л90/91 AP Drum
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleL90DrumAPEmpty
-  name: large magazine box (AP Drum L90/91 x 32)
+  name: велика коробка набоїв (ББ барабанні Л90/91 х 32)
   components:
   - type: Sprite
     layers:
@@ -770,11 +770,11 @@
         tags:
         - RMCMagazineRifleL90DrumAP
 
-# L90/91 HEAP Drum
+# Л90/91 HEAP Drum
 - type: entity
   parent: RMCBoxMagazineRifleLargeBase
   id: RMCBoxLargeMagazineRifleL90DrumHEAPEmpty
-  name: large magazine box (HEAP Drum L90/91 x 32)
+  name: велика коробка набоїв (ВБ барабанні Л90/91 х 32)
   components:
   - type: Sprite
     layers:

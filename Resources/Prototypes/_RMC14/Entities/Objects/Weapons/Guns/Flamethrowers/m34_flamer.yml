@@ -241,8 +241,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: VehicleFlamerTankLZRN
-  name: LZR-N flame tank
-  description: A fuel tank for the LZR-N flame unit. Handle with care.
+  name: ЛЗР-Н паливний бак
+  description: Паливний бак для вогнемету ЛЗР-Н. Використовуйте та зберігайте з обережністю.
   components:
   - type: SolutionContainerManager
     solutions:

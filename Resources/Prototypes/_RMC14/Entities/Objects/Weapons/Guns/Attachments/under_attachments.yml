@@ -73,8 +73,8 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: bipod-on
-    actionName: Deploy Bipod
-    actionDesc: Deploy the bipod and get into a firing position.
+    actionName: Розставити сошки
+    actionDesc: Розставити сошки та заняти вогневу позицію.
   - type: AttachableVisuals
     showActive: true
   - type: AttachableTemporarySpeedMods
@@ -140,8 +140,8 @@
 - type: entity
   parent: RMCAttachmentBipod
   id: RMCAttachmentBipodQYJ
-  name: QYJ-72 bipod
-  description: Integrated into the QYJ-72. You shouldn't have this.
+  name: ЙУЖ-72 сошки
+  description: Інтегровані у кулемет ЙУЖ-72. Нащо це тобі?
   components:
   - type: Sprite
     state: qyj72_bipod
@@ -319,8 +319,8 @@
       path: /Audio/_RMC14/Attachable/gun_u7_activate.ogg # TODO RMC14
       params:
         volume: -2
-    actionName: Switch to the mini flamethrower.
-    actionDesc: Switch to using the mini flamethrower.
+    actionName: Переключитися на міні-вогнемет.
+    actionDesc: Почати використовувати міні-вогнемет.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: flamethrower
@@ -407,8 +407,8 @@
       path: /Audio/_RMC14/Attachable/gun_u7_activate.ogg
       params:
         volume: -2
-    actionName: Switch to the U7 underbarrel shotgun
-    actionDesc: Switch to using the underbarrel shotgun.
+    actionName: Переключитися на П7 підствольний дробовик.
+    actionDesc: Почати використовувати підствольний дробовик.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: masterkey
@@ -461,8 +461,8 @@
       path: /Audio/_RMC14/Attachable/gun_u7_activate.ogg # TODO RMC14
       params:
         volume: -2
-    actionName: Switch to the underbarrel extinguisher.
-    actionDesc: Switch to using the underbarrel extinguisher.
+    actionName: Переключитися на РМВ-12 підствольний вогнегасник.
+    actionDesc: Почати використовувати підствольний вогнегасник.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: extinguisher
@@ -581,8 +581,8 @@
     wieldedUseOnly: true
     activatePopupText: attachable-popup-switch-to-generic
     deactivatePopupText: attachable-popup-switch-from-generic
-    actionName: Switch to the U1 Grenade Launcher
-    actionDesc: Switch to using the underbarrel grenade launcher.
+    actionName: Переключитися на П1 підствольний гранатомет.
+    actionDesc: Почати використовувати підствольний гранатомет.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: grenade
@@ -625,7 +625,7 @@
           True: { state: grenade-mk1-open }
           False: { state: grenade-mk1 }
   - type: AttachableToggleable
-    actionName: Switch to the MK1 Underslung Grenade Launcher
+    actionName: Переключитися на МК1 підствольний гранатомет.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: grenade-mk1
@@ -646,7 +646,7 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentM203GrenadeLauncher
-  name: М203 гранатомет
+  name: М203 підствольний гранатомет
   description: Антикварний підствольний гранатомет. Вміщує лише одну 40-мм гранату, не має сучасних систем УДВ, та не уникне влучання в ваших друзів.
   components:
   - type: Sprite
@@ -668,7 +668,7 @@
           True: { state: grenade-m203-open }
           False: { state: grenade-m203 }
   - type: AttachableToggleable
-    actionName: Switch to the MK1 Underslung Grenade Launcher
+    actionName: Переключитися на М203 підствольний гранатомет.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: grenade-m203
@@ -782,8 +782,8 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: flashgrip-on
-    actionName: Activate Underbarrel Flashlight Grip
-    actionDesc: Can be toggled on and off. A better light source than standard M3 pattern armor lights.
+    actionName: Увімкнути вертикальну рукоятку з ліхтариком.
+    actionDesc: Можна увімкнути та вимкнути. Краще джерело світла, аніж стандартна броня М3.
   - type: AttachableVisuals
     showActive: true
   - type: AttachableToggleableSimpleActivate
@@ -826,8 +826,8 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/under.rsi
       state: laserlight-on
-    actionName: Activate Laser-Light Module
-    actionDesc: Can be toggled on and off. A better light source than standard M3 pattern armor lights.
+    actionName: Увімкнути лазерно-освітлювальний модуль.
+    actionDesc: Можна увімкнути та вимкнути. Краще джерело світла, аніж стандартна броня М3.
   - type: AttachableWeaponRangedMods
     modifiers:
     - accuracyAddMult: 0.05
@@ -860,8 +860,8 @@
     iconActive:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
       state: bipod-l91-on
-    actionName: Deploy Bipod
-    actionDesc: Deploy the bipod and get into a firing position.
+    actionName: Розставити сошки
+    actionDesc: Розставити сошки та заняти вогневу позицію.
   - type: AttachableWeaponMeleeMods
     modifiers:
     - bonusDamage:
@@ -897,8 +897,8 @@
           True: { state: grenade-l90-open }
           False: { state: grenade-l90 }
   - type: AttachableToggleable
-    actionName: Switch to the L90U3 Grenade Launcher
-    actionDesc: Switch to using the underbarrel grenade launcher.
+    actionName: Переключитися на Л90П3 підствольний гранатомет
+    actionDesc: Почати використовувати підствольний гранатомет.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
       state: grenade-l90
@@ -966,8 +966,8 @@
       path: /Audio/_RMC14/Attachable/gun_u7_activate.ogg
       params:
         volume: -2
-    actionName: Switch to the L90U1 underbarrel shotgun
-    actionDesc: Switch to using the underbarrel shotgun.
+    actionName: Переключитися на Л90П1 підствольний дробовик.
+    actionDesc: Почати використовувати підствольний дробовик.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
       state: ubs-l90
@@ -987,15 +987,15 @@
 - type: entity
   parent: RMCAttachmentMiniFlamethrower
   id: RMCAttachmentL90UBF
-  name: L90U2 underbarrel flamethrower
-  description: An underbarrel flamethrower attachment designed specifically for L90 pattern rifles. Can be refueled from incinerator tanks.
+  name: Л90П2 підствольний вогнемет
+  description: Підствольний вогнемет, розроблений спеціально для серії гвинтівок Л90. Може бути заправленим з паливних баків.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
     state: flamer-l90
   - type: AttachableToggleable
-    actionName: Switch to the L90U2 underbarrel flamethrower.
-    actionDesc: Switch to using the L90U2 underbarrel flamethrower.
+    actionName: Переключитися на Л90П2 підствольний вогнемет.
+    actionDesc: Почати використовувати підствольний вогнемет.
     icon:
       sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
       state: flamer-l90
@@ -1012,8 +1012,8 @@
 - type: entity
   parent: RMCAttachableBase
   id: RMCAttachmentL88Grip
-  name: L88 integrated foregrip
-  description: Oi, you bloody galah! Put this back on your rifle and get back to it!
+  name: Л88 інтегрована рукоятка
+  description: Оі, ю бладі ґалах! Поверни це на свою гвинтівку і назад до роботи!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi

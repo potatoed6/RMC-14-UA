@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: CMWeaponPistolM1911
-  name: M1911 service pistol
-  description: A timeless classic since the first World War, produced in limited amount by AEGIS after their acquisition of Colt's Manufacturing Company. Once standard issue for the UNMC, now back order only. Chambered in .45 ACP.
+  name: М1911 службовий пістолет
+  description: Позачасова класика, що не втрачає актуальності ще з часів Першої світової війни. Випускається обмеженими партіями компанією ЕҐІДА після придбання нею компанії Кольт. Колись був штатною зброєю Корпусу морської піхоти ОН, а нині доступний лише під замовлення. Розрахований на патрон .45 АПК.
   components:
   - type: Tag
     tags:
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1911
-  name: M1911 magazine (.45 ACP)
+  name: М1911 магазин (.45 АПК)
   components:
   - type: Tag
     tags:
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol45ACP
-  name: bullet (.45 ACP)
+  name: куля (.45 АПК)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -113,7 +113,7 @@
 
 - type: entity
   id: CMCartridgePistol45ACP
-  name: cartridge (.45 ACP)
+  name: набій (.45 АПК)
   parent: CMCartridgePistolBase
   components:
   - type: Tag

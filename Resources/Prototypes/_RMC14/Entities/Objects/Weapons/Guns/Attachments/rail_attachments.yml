@@ -688,8 +688,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentScopeMGLIntegrated
-  name: L989A2 collimator sight assembly
-  description: Blimey... I think that's supposed to be stuck on...
+  name: Л989А2 коліматорний приціл
+  description: Блаймі... Мені здається це має бути прікріплено...
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rail.rsi
@@ -721,8 +721,8 @@
 - type: entity
   parent: RMCAttachmentS42xTelescopicMiniscope
   id: RMCAttachmentL89Scope
-  name: L89 integrated optic
-  description: The rifle's about as useful as you are now, you wanker. Put it back on.
+  name: Л89 інтегрована оптика
+  description: Тепер гвинтівка настільки ж корисна, як й ти, придурку. Постав це на місце.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_rail.rsi

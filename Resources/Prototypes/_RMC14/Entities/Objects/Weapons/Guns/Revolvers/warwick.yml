@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCWeaponRevolverM44
   id: RMCWeaponRevolverWarwickMkVII
-  name: Warwick MkVII service revolver
-  description: The L187 Warwick MkVII top-break revolver is the standard-issue service revolver of the RCM’s Paramarine regiments. Despite the Warwick's archaic design, the MkVII's vacuum-sealed internals, bakelite grips, and .44 magnum chambering keep the weapon relevant and brutally effective.
+  name: Варвік Марк VII службовий револьвер
+  description: Револьвер Л187 Варвік Марк 7 із відкидним верхнім блоком ствола є штатним службовим револьвером парамаринів. Попри архаїчну конструкцію Варвіка, герметизований вакуумом внутрішній механізм Марк 7, бакелітові накладки руків’я та патрон калібру .44 Маґнум дають змогу цій зброї не втрачати актуальності й залишатися надзвичайно ефективною та смертоносною.
   suffix: Paramarine
   components:
   - type: Sprite
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCWeaponRevolverWarwickMkVII
   id: RMCWeaponRevolverWarwickMkVIIAlt
-  name: Warwick MkVII service revolver
+  name: Варвік Марк VII службовий револьвер
   suffix: Paramarine, Alt
   components:
   - type: Sprite
@@ -33,8 +33,8 @@
 - type: entity
   parent: RMCWeaponRevolverWarwickMkVII
   id: RMCWeaponRevolverWarwickMkVIISnub
-  name: Warwick MkVII snubnose revolver
-  description: The L187 Warwick MkVII top-break revolver is the standard-issue service revolver of the RCM’s Paramarine regiments. This particular variant features a snubnose barrel and reduced profile grip, keeping the weapon compact and light.
+  name: укорочений Варвік Марк VII револьвер
+  description: Револьвер Л187 Варвік Марк VII із відкидним верхнім блоком ствола є штатним службовим револьвером парамаринів. Ця модифікація оснащена вкороченим стволом і руків’ям зменшеного профілю, що робить зброю компактнішою та легшою.
   suffix: RCM, Loadout
   components:
   - type: Sprite

@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCBaseWeaponLauncher
   id: RMCWeaponLauncherL33
-  name: L33 DAAMSL
+  name: Л33 ОПРК
   suffix: PVE, RCM, AT
-  description: "The L33 Disposable Anti-Armour Missile Launcher, standard-issue anti-tank system of the Royal Crown Marines; a single-use, shoulder-fired weapon capable of disabling or outright destroying moving vehicles even out to 1,250m.\n\nThe optic appears to be damaged. Guess you'll have to eyeball it."
+  description: "Одноразовий протитанковий ракетний комплекс Л33 - штатний протитанковий засіб Морпіхів Корони. Це одноразова пускова установка з плечовим способом запуску, здатна виводити з ладу або повністю знищувати рухомі транспортні засоби на відстані до 1250 м.\n\nОптичний приціл, схоже, пошкоджений. Доведеться цілитися навмання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/l33/icon.rsi

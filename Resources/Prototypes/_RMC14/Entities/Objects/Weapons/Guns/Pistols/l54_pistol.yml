@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: RMCWeaponPistolL54
-  name: L54 service pistol # TSE service pistol - same stats as the M1984
-  description: The standard issue semi-automatic service pistol of the TSEPA. Chambered in 9mm, it is comparable to the popular M1984 pistol utilized by the UNMC.
+  name: Л54 службовий пістолет # TSE service pistol - same stats as the M1984
+  description: Стандартна полуавтоматична зброя ІТСПА. Заряджається 9мм набоями, та, загалом, нічим не відрізняється у ТТХ від М1984.
   components:
   - type: Tag
     tags:
@@ -46,8 +46,8 @@
 - type: entity
   parent: RMCWeaponPistolL54
   id: RMCWeaponPistolL54Custom
-  name: L54 custom service pistol
-  description: The standard-issue semi-automatic sidearm of the TSEPA and various military forces within the Three Sun Empire, chambered in 9x20mm. Functionally comparable to the UNMC’s M1984 service pistol, this particular example has been heavily customized—featuring a gold-alloy finish, extended barrel with an integrated compensator, and precision-tuned internals, as well as an auto-eject feature. These modifications push its performance well beyond standard service specifications.
+  name: Л54 кастомний службовий пістолет
+  description: Штатний самозарядний пістолет ІТСПА та низки інших військових формувань Імперії, розрахований на патрон калібру 9×20 мм. За своїми характеристиками він загалом відповідає пістолету M1984 Корпусу морської піхоти ОН. Цей екземпляр зазнав численних модифікацій - має оздоблення зі сплаву золота, подовжений ствол з інтегрованим компенсатором, прецизійно налаштований ударно-спусковий механізм та систему автоматичного викидання гільз. Завдяки цим удосконаленням його характеристики значно перевершують стандартні показники штатної моделі.
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Weapons/Guns/Pistols/l54_custom.rsi
@@ -71,7 +71,7 @@
   parent: RMCWeaponPistolL54Custom
   id: RMCWeaponPistolL54CustomAlt
   suffix: Alt
-  description: The standard-issue semi-automatic sidearm of the TSEPA and various military forces within the Three Sun Empire, chambered in 9x20mm. Functionally comparable to the UNMC’s M1984 service pistol, this particular example has been heavily customized—featuring a dark special-alloy finish, extended barrel with an integrated compensator, and precision-tuned internals, as well as an auto-eject feature. These modifications push its performance well beyond standard service specifications
+  description: Штатний самозарядний пістолет ІТСПА та низки інших військових формувань Імперії, розрахований на патрон калібру 9×20 мм. За своїми характеристиками він загалом відповідає штатному пістолету M1984 Корпусу морської піхоти ОН. Цей екземпляр зазнав численних модифікацій - має покриття зі спеціального темного сплаву, подовжений ствол з інтегрованим компенсатором, прецизійно налаштований ударно-спусковий механізм, а також систему автоматичного викидання гільз. Завдяки цим удосконаленням його характеристики значно перевершують стандартні показники штатної моделі.
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Weapons/Guns/Pistols/l54_custom_alt.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolL54
-  name: L54 magazine (9mm)
-  description: A pistol magazine that fits the L54.
+  name: Л54 магазин (9мм)
+  description: Пістолетний магазин, що можна вставити у Л54.
   components:
   - type: Tag
     tags:
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolL54Custom
-  name: L54-S magazine (9x20mm)
-  description: A modified L54 pistol magazine loaded with proprietary 9x20mm ammunition. Incompatible with standard 9mm weapons or magazines.
+  name: Л54-С магазин (9x20мм)
+  description: Модифікований магазин для Л54 під набої 9х20мм.
   components:
     - type: Tag
       tags:
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMCartridgePistol9mm
   id: RMCCartridge9x20mm
-  name: cartridge (9×20mm)
-  description: A 9×20mm cartridge for the L54 Custom.
+  name: набій (9х20мм)
+  description: Набій 9х20мм для пістолету Л54 Кастом.
   components:
     - type: Tag
       tags:

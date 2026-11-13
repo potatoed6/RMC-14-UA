@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponIncineratorL104
-  name: L104 incinerator
+  name: Л104 вогнемет
   suffix: PVE, Royal
-  description: The L104 incinerator is the standard-issue flame projector unit of the Royal Crown Marines, a lightweight and ergonomic weapon that sees rare use in RCM doctrine despite its brutal effectiveness at close range.
+  description: Вогнемет Л104 це стандартна вогнеметна установка Морпіхв Корони, це легка та ергономічна зброя, яку можна рідко побачити у дії, не дивлячісь на її високу ефективність у ближньому бою.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/l104.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCBaseTankFlamer
   id: RMCTankIncineratorL104
-  name: L104 incinerator fuel tank
-  description: A large tank, compatible with the L104 incinerator, designed to hold highly combustible fuel at immense pressure.
+  name: Л104 паливний бак
+  description: Великий бак, задля використання вогнеметом Л104, створений для зберігання високозаймистого палива під великим тиском.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi

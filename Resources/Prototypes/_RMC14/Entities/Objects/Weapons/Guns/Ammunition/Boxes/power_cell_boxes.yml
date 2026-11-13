@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBoxMagazineSupplyBase
   id: RMCBoxMagazinePowerCellsHigh
-  name: box of high-capacity power cells (x8)
-  description: A box of High-Capacity Power Cells to keep your electronics going all night long!
+  name: коробка з акумуляторями великої ємності (х8)
+  description: Коробка акумуляторів великої ємності, аби харчувати усю вашу електроніку!
   components:
   - type: Construction
     graph: RMCBoxMagazine

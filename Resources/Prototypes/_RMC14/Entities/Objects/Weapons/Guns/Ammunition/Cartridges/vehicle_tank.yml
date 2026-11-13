@@ -1,7 +1,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeLTBCannon
-  name: cartridge (LTB cannon)
+  name: постріл (КБА гармата)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -16,7 +16,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeAceAutocannon
-  name: cartridge (ACE autocannon)
+  name: постріл (ЗТМ автогармата)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -30,7 +30,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeDragonFlame
-  name: cartridge (DRGN flame)
+  name: постріл (ДРКН вогнемет)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: VehicleCartridgeTankFlamer
-  name: cartridge (tank flamer)
+  name: постріл (танковий вогнемет)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMCartridge10x20mmAP
   id: VehicleCartridgeLTAAAP
-  name: cartridge (10x20mm-APC)
+  name: постріл (10х20мм-АПК)
   components:
   - type: CartridgeAmmo
     proto: VehicleBulletLTAAAP
@@ -66,7 +66,7 @@
 # Projectiles
 - type: entity
   id: VehicleLTBCannonImpact
-  name: LTB cannon impact
+  name: КБА гармата влучання
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: TriggerOnSpawn
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCProjectileAceAutocannonFlak
-  name: ACE flak round
+  name: ЗТМ зенітний снаряд
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: VehicleProjectileDragonFlame
-  name: DRGN flame jet
+  name: струя палива ДРКН
   categories: [ HideSpawnMenu ]
   components:
   - type: DeleteOnFixedDistanceStop
@@ -172,7 +172,7 @@
 - type: entity
   parent: Bullet10x20mmAP
   id: VehicleBulletLTAAAP
-  name: bullet (10x20mm-APC)
+  name: куля (10х20мм-АПК)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -189,7 +189,7 @@
 
 - type: entity
   id: VehicleDragonFlameImpact
-  name: DRGN flame impact
+  name: влучання палива ДРКН
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: TriggerOnSpawn
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: VehicleProjectileDragonFlameShard
-  name: DRGN flame jet
+  name: струя палива ДРКН
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: VehicleProjectileTankFlamer
-  name: tank flamer jet
+  name: струя танкового вогнемету
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -281,7 +281,7 @@
 
 - type: entity
   id: VehicleTankFlamerImpact
-  name: tank flamer impact
+  name: влучання танкового вогнемету
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: TriggerOnSpawn
